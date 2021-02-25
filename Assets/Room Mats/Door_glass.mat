@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Door_glass
-  m_Shader: {fileID: 4800000, guid: 19e79e6fdce5d29418196afe8a2347a0, type: 3}
+  m_Shader: {fileID: 4800000, guid: da2cff13fdb5c43b1936bf59f7f6dacb, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -64,24 +64,29 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _BumpInfluence: 1
     - _BumpScale: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _FresnelFactor: 5
+    - _GeoInfluence: 1
     - _GlossMapScale: 1
-    - _Glossiness: 0
+    - _Glossiness: 1
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _Refraction: 80
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.060784314, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.46226418, g: 0.0283464, b: 0.0283464, a: 0.6862745}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _MovementDirection: {r: 0, g: -1, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
